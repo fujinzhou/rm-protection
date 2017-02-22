@@ -43,7 +43,7 @@ def ask(evalpath, parent=False):
                         return False
                     else:
                         pprint("Wrong answer! " + original_path(evalpath) + " will not be removed")
-                    pprint("The answer is stored in " + evalpath)
+                    #pprint("The answer is stored in " + evalpath)
                 return False
 
 
